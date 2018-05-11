@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="dzn_EJAM">
+	<Package name="dzn_EJAM">
+ 		<Container name="Menus">
+            <Key ID="STR_Flares_M_Enabled">
+                <Original>Enabled for Mortars</Original>
+                <Russian>Включить для Минометов</Russian>
+            </Key>
+			<Key ID="STR_Flares_M_ListSetting">
+				<Original>[Mortar] Classlist</Original>
+				<Russian>[Миномет] Список классов</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_ListSetting_desc">
+				<Original>Classlist (base and roots aswell) to apply flare effects on firing flare rounds</Original>
+				<Russian>Список классов (в т.ч. родительские и базовых) при стрельбе из которых будет применяться эффект</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Range">
+				<Original>[Mortar] Range (m)</Original>
+				<Russian>[Миномет] Радиус освещения (м)</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Intensity">
+				<Original>[Mortar] Intensity</Original>
+				<Russian>[Миномет] Яркость света</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Deviation">
+				<Original>[Mortar] Intensity deviation %</Original>
+				<Russian>[Миномет] Изменчивость яркости %</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Deviation_desc">
+				<Original>Light intensity deviation in time, percentage of intensity. Greater values means more noticible effect.</Original>
+				<Russian>Изменчивость яркости освещения во времени ("дрожание света") в процентах от яркости. Чем больше - тем более резкие колебания яркости.</Russian>
+			</Key>
+
+
+			<Key ID="STR_Flares_H_Enabled">
+				<Original>Enabled for Howitzer</Original>
+				<Russian>Включить для Гаубиц</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_ListSetting">
+				<Original>[Howitzer] Classlist</Original>
+				<Russian>[Гаубицы] Список классов</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_ListSetting_desc">
+				<Original>Classlist (base and roots aswell) to apply flare effects on firing flare rounds</Original>
+				<Russian>Список классов (в т.ч. родительские и базовых) при стрельбе из которых будет применяться эффект</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Range">
+				<Original>[Howitzer] Range (m)</Original>
+				<Russian>[Гаубицы] Радиус освещения (м)</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Intensity">
+				<Original>[Howitzer] Intensity</Original>
+				<Russian>[Гаубицы] Яркость света</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Deviation">
+				<Original>[Howitzer] Intensity deviation %</Original>
+				<Russian>[Гаубицы] Изменчивость яркости %</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Deviation_desc">
+				<Original>Light intensity deviation in time, percentage of intensity. Greater values means more noticible effect.</Original>
+				<Russian>Изменчивость яркости освещения во времени ("дрожание света") в процентах от яркости. Чем больше - тем более резкие колебания яркости.</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
