@@ -5,6 +5,7 @@
 	returns: nothing
 	example:
 */
+#include "..\macro.hpp"
 
 params["_v","_type"];
 
@@ -12,6 +13,6 @@ params["_v","_type"];
 	_v
 	, [
 		"Fired"
-		, compile format ["[_this, %1] spawn %2", _type, SVAR(fnc_setFlareEffectGlobal)]
+		, compile format ["[_this, '%1'] spawn %2", _type, SVAR(fnc_setFlareEffectGlobal)]
 	]
 ] remoteExec ["addEventhandler", 0];
