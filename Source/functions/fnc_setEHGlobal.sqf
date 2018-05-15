@@ -13,6 +13,6 @@ params["_v","_type"];
 	_v
 	, [
 		"Fired"
-		, compile format ["[_this, '%1'] spawn %2", _type, SVAR(fnc_setFlareEffectGlobal)]
+		, compile format ["[_this, '%1'] spawn %2", _type, SVAR(fnc_handleFlare)]
 	]
 ] remoteExec ["addEventhandler", 0];
