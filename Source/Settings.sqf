@@ -31,6 +31,7 @@ private _add = {
 	, "StaticMortar, Mortar_01_base_F, CUP_B_M1129_MC_MK19_Desert, CUP_B_M1129_MC_MK19_Woodland"
 	, {
 		GVAR(M_List) = _this splitString ", ";
+		publicVariable SVAR(M_List);
 	}
 ] call _add;
 
@@ -45,13 +46,13 @@ private _add = {
 [
 	"M_Intensity"
 	, "SLIDER"
-	, [1,100,25,0]
+	, [1,25,2,0]
 ] call _add;
 // Mortars > Light intensity deviation
 [
 	"M_Deviation"
 	, "SLIDER"
-	, [0,100,10,0]
+	, [0,100,25,0]
 ] call _add;
 
 
@@ -70,23 +71,24 @@ private _add = {
 	, "StaticCannon, rhs_2s3tank_base"
 	, {
 		GVAR(H_List) = _this splitString ", ";
+		publicVariable SVAR(H_List);
 	}
 ] call _add;
 // Howitzers > Illumination radius
 [
 	"H_Range"
 	, "SLIDER"
-	, [100,1500,400,0]
+	, [100,1500,450,0]
 ] call _add;
 // Howitzers > Flare light intensity
 [
 	"H_Intensity"
 	, "SLIDER"
-	, [1,100,25,0]
+	, [1,25,2,0]
 ] call _add;
 // Howitzers > Light intensity deviation
 [
 	"H_Deviation"
 	, "SLIDER"
-	, [0,100,10,0]
+	, [0,100,25,0]
 ] call _add;

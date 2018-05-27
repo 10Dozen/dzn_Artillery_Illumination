@@ -3,6 +3,10 @@
 #include "Settings.sqf"
 
 [] spawn {
+	waitUntil { !isNil SVAR(M_List) && !isNil SVAR(H_List) };
+	
+	call GVAR(fnc_publish);
+	
 	while { true } do {
 		{
 			private _v = _x;
@@ -16,6 +20,6 @@
 			sleep 0.01;
 		} forEach vehicles;
 
-		sleep (5 + random (5));
+		sleep (7 + random (5));
 	};
 };

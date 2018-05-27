@@ -7,7 +7,7 @@
 */
 #include "..\macro.hpp"
 
-params["_o","_type"];
+params["_o",["_type", "mortar"]];
 
 private _enabled = false;
 private _color = [1,1,1];
@@ -24,9 +24,9 @@ switch toLower(_type) do {
 	};
 	case "howitzer": {
 		_enabled = GVAR(H_Enabled);
-    	_range = GVAR(H_Range);
-    	_intensity = GVAR(H_Intensity);
-    	_deviation = GVAR(H_Deviation);
+		_range = GVAR(H_Range);
+		_intensity = GVAR(H_Intensity);
+		_deviation = GVAR(H_Deviation);
 	};
 };
 
