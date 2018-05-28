@@ -17,10 +17,12 @@
 	, SVAR(M_Range)
 	, SVAR(M_Intensity)
 	, SVAR(M_Deviation)
+	, SVAR(M_Color)
 	, SVAR(H_Enabled)
 	, SVAR(H_List)
 	, SVAR(H_Range)
 	, SVAR(H_Intensity)
 	, SVAR(H_Deviation)
+	, SVAR(H_Color)
 ];
 

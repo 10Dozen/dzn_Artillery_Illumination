@@ -21,12 +21,14 @@ switch toLower(_type) do {
 		_range = GVAR(M_Range);
 		_intensity = GVAR(M_Intensity);
 		_deviation = GVAR(M_Deviation);
+		_color = GVAR(M_Color);
 	};
 	case "howitzer": {
 		_enabled = GVAR(H_Enabled);
 		_range = GVAR(H_Range);
 		_intensity = GVAR(H_Intensity);
 		_deviation = GVAR(H_Deviation);
+		_color = GVAR(H_Color);
 	};
 };
 
