@@ -2,6 +2,8 @@
 #include "Functions.sqf"
 #include "Settings.sqf"
 
+if !(isServer) exitWith {};
+
 [] spawn {
 	waitUntil { !isNil SVAR(M_List) && !isNil SVAR(H_List) };
 	
