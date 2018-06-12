@@ -2,6 +2,8 @@ class CfgPatches
 {
 	class dzn_Artillery_Illumination
 	{
+		units[] = {};
+		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CBA_MAIN"};
 		author[] = {"10Dozen"};
