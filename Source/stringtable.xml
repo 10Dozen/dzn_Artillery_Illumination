@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="dzn_EJAM">
+	<Package name="dzn_EJAM">
+ 		<Container name="Menus">
+			
+			<Key ID="STR_Flares_M">
+			    <Original>Mortars</Original>
+			    <Russian>Минометы</Russian>
+			</Key>
+			<Key ID="STR_Flares_H">
+			    <Original>Howitzers</Original>
+			    <Russian>Гаубицы</Russian>
+			</Key>
+			
+			<Key ID="STR_Flares_M_Enabled">
+			    <Original>Enabled for Mortars</Original>
+			    <Russian>Включить для Минометов</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_ListSetting">
+				<Original>Classlist</Original>
+				<Russian>Список классов</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_ListSetting_desc">
+				<Original>Classlist (base and roots aswell) to apply flare effects on firing flare rounds</Original>
+				<Russian>Список классов (в т.ч. родительские и базовых) при стрельбе из которых будет применяться эффект</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Range">
+				<Original>Range (m)</Original>
+				<Russian>Радиус освещения (м)</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Intensity">
+				<Original>Intensity</Original>
+				<Russian>Яркость света</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Deviation">
+				<Original>Intensity deviation %</Original>
+				<Russian>Изменчивость яркости %</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Deviation_desc">
+				<Original>Light intensity deviation in time, percentage of intensity. Greater values means more noticible effect.</Original>
+				<Russian>Изменчивость яркости освещения во времени ("дрожание света") в процентах от яркости. Чем больше - тем более резкие колебания яркости.</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Color">
+				<Original>Light color</Original>
+				<Russian>Цвет освещения</Russian>
+			</Key>
+
+
+			<Key ID="STR_Flares_H_Enabled">
+				<Original>Enabled for Howitzer</Original>
+				<Russian>Включить для Гаубиц</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_ListSetting">
+				<Original>Classlist</Original>
+				<Russian>Список классов</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_ListSetting_desc">
+				<Original>Classlist (base and roots aswell) to apply flare effects on firing flare rounds</Original>
+				<Russian>Список классов (в т.ч. родительские и базовых) при стрельбе из которых будет применяться эффект</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Range">
+				<Original>Range (m)</Original>
+				<Russian>Радиус освещения (м)</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Intensity">
+				<Original>Intensity</Original>
+				<Russian>Яркость света</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Deviation">
+				<Original>Intensity deviation %</Original>
+				<Russian>Изменчивость яркости %</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Deviation_desc">
+				<Original>Light intensity deviation in time, percentage of intensity. Greater values means more noticible effect.</Original>
+				<Russian>Изменчивость яркости освещения во времени ("дрожание света") в процентах от яркости. Чем больше - тем более резкие колебания яркости.</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Color">
+				<Original>Light color</Original>
+				<Russian>Цвет освещения</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
