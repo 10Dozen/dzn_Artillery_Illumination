@@ -1,0 +1,10 @@
+name = "dzn Artillery Illumination";
+actionName = "WEBSITE";
+action = "";
+tooltip = "dzn Artillery Illumination";
+overview = "";
+author = "10Dozen";
+description = "dzn AI (Flares) - Version 1";
+logo = "mod.paa";
+logoOver = "mod.paa";
+overviewPicture = "mod.paa";
