@@ -1,6 +1,6 @@
 /*
 	author: 10Dozen
-	description: none
+	description: Publish functions and variables to ensure all clients handle illumination in the same way.
 	input: nothing
 	returns: nothing
 	example:
