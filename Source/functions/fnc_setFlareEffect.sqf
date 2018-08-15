@@ -1,13 +1,15 @@
 /*
 	author: 10Dozen
 	description: Process flare illumination effect on given round and type
-	input: 0: OBJECT - projectile to attach, 1: STRING - round type ("Mortar" or "Howitzer" shell)
+	input: 	0: OBJECT - projectile to attach
+			1: STRING - round type ("Mortar" or "Howitzer" shell)
+			2: BOOLEAN - is flare star needed (for fnc_spawnShell call)
 	returns: nothing
 	example:
 */
 #include "..\macro.hpp"
 
-params["_o",["_type", "mortar"]];
+params["_o",["_type", "mortar"],["_starNeeded", false]];
 
 private _enabled = false;
 private _color = [1,1,1];
@@ -34,8 +36,21 @@ switch toLower(_type) do {
 
 if !(_enabled) exitWith {};
 
-waitUntil { velocity _o select 2 < 0 };
+if (!_starNeeded) then {
+	waitUntil { velocity _o select 2 < 0 };
+};
 waitUntil { sleep 1; getPos _o select 2 < 240 };
+
+private _flareStars = [];
+if (_starNeeded) then {	
+	// Case of Zeus Module call
+	private _flareStar = objNull;
+	for "_i" from 1 to (if (_type == "mortar") then { 0 } else { 1 }) do {
+		_flareStar = "F_40mm_White" createVehicleLocal [0,0,0];
+		_flareStar attachTo [_o, [0,0,0]];
+		_flareStars pushBack _flareStar;
+	};
+};
 
 private _flare = "#lightpoint" createVehicleLocal (getPosVisual _o);
 _flare setLightAmbient _color;
@@ -50,8 +65,6 @@ private _h = getPos _o select 2;
 _range = _range / 2 / 240;
 
 while { _h > 1  } do {
-// hint format ["H: %1 , R: %2", _h, 2*_h*_range];
-
 	sleep ((random 0.01) + 0.05);
 	_flare setLightIntensity (_intensity + random (_intensity*_deviation/100));
 	_flare setLightAttenuation [2.5*_h*_range, 1, 0, 4.31918e-005, 50, 2.5*_h*_range + 50];
@@ -60,4 +73,5 @@ while { _h > 1  } do {
 	if (_h <= 1) exitWith { deleteVehicle _flare; };
 };
 
+{ deleteVehicle _x } forEach _flareStars;
 deleteVehicle _flare;

@@ -6,3 +6,7 @@ COMPILE_FUNCTION(fnc_handleFlare);
 COMPILE_FUNCTION(fnc_setFlareEffect);
 COMPILE_FUNCTION(fnc_setEHGlobal);
 COMPILE_FUNCTION(fnc_publish);
+
+COMPILE_FUNCTION(fnc_module_spawnShell);
+COMPILE_FUNCTION(fnc_module_mortarSingle);
+COMPILE_FUNCTION(fnc_module_howitzerSingle);

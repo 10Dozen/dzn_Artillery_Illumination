@@ -2,6 +2,29 @@
 <Project name="dzn_EJAM">
 	<Package name="dzn_EJAM">
  		<Container name="Menus">
+			<Key ID="STR_Flares_M_Module">
+			    <Original>Mortar Illumination</Original>
+			    <Russian>Минометый осветительный</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Module">
+			    <Original>Howitzer Illumination</Original>
+			    <Russian>Гаубичный осветительный</Russian>
+			</Key>
+
+			<Key ID="STR_Flares_Module_Hint_Title">
+			    <Original>Illumination deployed</Original>
+			    <Russian>Осветительный запущен</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Module_Hint_Text">
+			    <Original>Mortar, ETA 8 sec</Original>
+			    <Russian>Минометый, через 8 сек</Russian>
+			</Key>
+			<Key ID="STR_Flares_H_Module_Hint_Text">
+			     <Original>Howitzer, ETA 8 sec</Original>
+			    <Russian>Гаубичный, через 8 сек</Russian>
+			</Key>
+
+			
 			
 			<Key ID="STR_Flares_M">
 			    <Original>Mortars</Original>
