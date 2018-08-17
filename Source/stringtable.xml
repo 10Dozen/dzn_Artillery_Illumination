@@ -10,7 +10,7 @@
 			    <Original>Howitzer Illumination</Original>
 			    <Russian>Гаубичный осветительный</Russian>
 			</Key>
-
+			
 			<Key ID="STR_Flares_Module_Hint_Title">
 			    <Original>Illumination deployed</Original>
 			    <Russian>Осветительный запущен</Russian>
@@ -23,7 +23,16 @@
 			     <Original>Howitzer, ETA 8 sec</Original>
 			    <Russian>Гаубичный, через 8 сек</Russian>
 			</Key>
-
+			
+			
+			<Key ID="STR_Flares_M_Module_Triple">
+			    <Original>Mortar Illumination (x3)</Original>
+			    <Russian>Минометый осветительный (x3)</Russian>
+			</Key>
+			<Key ID="STR_Flares_M_Module_Triple_Hint_Text">
+			    <Original>Mortar, 3 rounds, 45 sec each, ETA 8 sec</Original>
+			    <Russian>Минометый, 3 снаряда, 45 сек каждый, через 8 сек</Russian>
+			</Key>
 			
 			
 			<Key ID="STR_Flares_M">

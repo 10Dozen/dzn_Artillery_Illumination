@@ -46,7 +46,7 @@ if (_starNeeded) then {
 	// Case of Zeus Module call
 	private _flareStar = objNull;
 	for "_i" from 1 to (if (_type == "mortar") then { 0 } else { 1 }) do {
-		_flareStar = "F_40mm_White" createVehicleLocal [0,0,0];
+		_flareStar = "F_40mm_White_Infinite" createVehicleLocal [0,0,0];
 		_flareStar attachTo [_o, [0,0,0]];
 		_flareStars pushBack _flareStar;
 	};

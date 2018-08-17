@@ -2,7 +2,11 @@ class CfgPatches
 {
 	class dzn_Artillery_Illumination
 	{
-		units[] = {"dzn_Module_AI_MortarFlare", "dzn_Module_AI_HowitzerFlare"};
+		units[] = {
+			"dzn_Module_AI_MortarFlare"
+			,"dzn_Module_AI_MortarFlare_Triple"
+			,"dzn_Module_AI_HowitzerFlare"			
+		};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CBA_MAIN"};
@@ -27,6 +31,12 @@ class CfgVehicles
 		author = "10Dozen";
 		displayName = $STR_Flares_M_Module;
 		function = "dzn_Flares_fnc_module_mortarSingle";
+	};
+	class dzn_Module_AI_MortarFlare_Triple: ModuleFlareWhite_F
+	{
+		author = "10Dozen";
+		displayName = $STR_Flares_M_Module_Triple;
+		function = "dzn_Flares_fnc_module_mortarTriple";
 	};
 	class dzn_Module_AI_HowitzerFlare: ModuleFlareWhite_F
 	{

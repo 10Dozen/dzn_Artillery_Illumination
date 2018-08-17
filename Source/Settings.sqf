@@ -57,7 +57,7 @@ private _add = {
 [
 	"M_Intensity"
 	, "SLIDER"
-	, [1,25,2,0]
+	, [1,25,10,0]
 	, M_ECAT
 ] call _add;
 // Mortars > Light intensity deviation
@@ -106,7 +106,7 @@ private _add = {
 [
 	"H_Intensity"
 	, "SLIDER"
-	, [1,25,2,0]
+	, [1,25,10,0]
 	, H_ECAT
 ] call _add;
 // Howitzers > Light intensity deviation

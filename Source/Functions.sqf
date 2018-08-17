@@ -9,4 +9,5 @@ COMPILE_FUNCTION(fnc_publish);
 
 COMPILE_FUNCTION(fnc_module_spawnShell);
 COMPILE_FUNCTION(fnc_module_mortarSingle);
+COMPILE_FUNCTION(fnc_module_mortarTriple);
 COMPILE_FUNCTION(fnc_module_howitzerSingle);
